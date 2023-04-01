@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pycroupier
+Version: 1.0.0
+Summary: Rand select utils
+Home-page: https://github.com/MarchLiu/pycroupier
+Author: marsliu
+Author-email: mars.liu@outlook.com
+License: MIT
+Description: # Croupier
+        
+        Croupier library support rand select items from list with difference algo.
+        
+        ## Installation
+        
+        ```
+        pip install pycrouiper
+        ```
+        
+        ## Usage
+        
+        Just like this:
+        
+        ```
+        >>> import croupier
+        >>> damping = croupier.damping()
+        >>> data = ["b", "e", "h", "d", "f"]
+        >>> damping.draw(data, 2)
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
